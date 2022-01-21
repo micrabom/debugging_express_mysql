@@ -61,7 +61,7 @@ app.post("/login", function(req,res) {
      * When you try this out now, you should see that the ordering of processes are off.
      * It reads STEP 1 first, then skips to STEP 3, then back to STEP 2. Why is that?
      * Please fix the ordering to Step 1, Step 2, & Step 3.
-     * Make sure you solve this using: Callback (with setTimeout()), Async/Await, and Promises.
+     * Make sure you solve this using: Callback, Async/Await, and Promises.
     **/    
 
     console.log("STEP 1");
