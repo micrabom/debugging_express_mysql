@@ -13,7 +13,7 @@ app.use(session({
 }));
 
 /** MYSQL Connection **/
-const Mysql         = require('mysql');
+const Mysql         = require('mysql2');
 var connection      = Mysql.createConnection({
     "host": "YOUR HOST HERE",
     "user": "YOUR USER HERE",
