@@ -15,10 +15,10 @@ app.use(session({
 /** MYSQL Connection **/
 const Mysql         = require('mysql2');
 var connection      = Mysql.createConnection({
-    "host": "YOUR HOST HERE",
-    "user": "YOUR USER HERE",
-    "password": "YOUR PASSWORD HERE",
-    "database": "YOUR DATABASE HERE",
+    "host": "localhost",
+    "user": "root",
+    "password": "1234",
+    "database": "lead_gen_business",
     "port": 3306
 });
 connection.connect(function(err) {
